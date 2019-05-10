@@ -200,6 +200,7 @@ $("ul.tabList a").click(function(){
 
 		  <div id="{STRM}-1" class="tabPanel" role="tabpanel" aria-labelledby="{STRM}-1-link" aria-hidden="false">
       <h3>Schedule: <xsl:call-template name="getTheTerm" /></h3>
+<!-- To Do: stop doing the tables one by one; figure out how to cycle through the Meeting days -->			 
     <table class="courseWeekTable" cellpadding="0" cellspacing="0" border="0">
       <tr>
         <td valign="top">
